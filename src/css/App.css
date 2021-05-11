@@ -1,3 +1,6 @@
+@import_normalize;
+@import './slider.css';
+
 .App {
   text-align: center;
 }

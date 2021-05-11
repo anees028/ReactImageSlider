@@ -1,12 +1,15 @@
-import './App.css';
-import ImageCarousel from './components/ImageCarousel/imageCarousel';
+import React from 'react'
+import Slider from './components/SliderImage/Slider';
+import './css/App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <ImageCarousel />
-    </div>
-  );
+    <>
+      <Slider />
+    </>
+  )
 }
 
 export default App;
+
